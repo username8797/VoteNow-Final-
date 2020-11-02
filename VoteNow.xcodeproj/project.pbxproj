@@ -3,10 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B182C1F37E576887EB229E0 /* Pods_VoteNow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4D70D03E1A2D6101F75624 /* Pods_VoteNow.framework */; };
+		465C6E6414E0F2A83598522B /* Pods_VoteNow_VoteNowUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46BB15220209B9F7A559308C /* Pods_VoteNow_VoteNowUITests.framework */; };
+		C3818109547B7B2F3FBFED5F /* Pods_VoteNowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E64FB4AE16BA7F9F233C56CA /* Pods_VoteNowTests.framework */; };
+		FF40D3462544C772004A842D /* PieChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF40D3452544C772004A842D /* PieChartViewController.swift */; };
+		FF544B7D2540BE69009E1863 /* RaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF544B7C2540BE69009E1863 /* RaceViewController.swift */; };
+		FF544B822540DCBE009E1863 /* SearchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF544B812540DCBE009E1863 /* SearchBarViewController.swift */; };
 		FF5EEFBA253E95B400D3A5D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5EEFB9253E95B400D3A5D8 /* AppDelegate.swift */; };
 		FF5EEFBC253E95B400D3A5D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5EEFBB253E95B400D3A5D8 /* SceneDelegate.swift */; };
 		FF5EEFBE253E95B400D3A5D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5EEFBD253E95B400D3A5D8 /* ViewController.swift */; };
@@ -15,6 +21,7 @@
 		FF5EEFC6253E95B600D3A5D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5EEFC4253E95B600D3A5D8 /* LaunchScreen.storyboard */; };
 		FF5EEFD1253E95B600D3A5D8 /* VoteNowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5EEFD0253E95B600D3A5D8 /* VoteNowTests.swift */; };
 		FF5EEFDC253E95B600D3A5D8 /* VoteNowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5EEFDB253E95B600D3A5D8 /* VoteNowUITests.swift */; };
+		FF5EEFED253EAA6000D3A5D8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF5EEFEC253EAA6000D3A5D8 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03CEB3009BC7AB217AC18982 /* Pods-VoteNow-VoteNowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoteNow-VoteNowUITests.release.xcconfig"; path = "Target Support Files/Pods-VoteNow-VoteNowUITests/Pods-VoteNow-VoteNowUITests.release.xcconfig"; sourceTree = "<group>"; };
+		46BB15220209B9F7A559308C /* Pods_VoteNow_VoteNowUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoteNow_VoteNowUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		783AFDF022353D1B17F08AED /* Pods-VoteNow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoteNow.debug.xcconfig"; path = "Target Support Files/Pods-VoteNow/Pods-VoteNow.debug.xcconfig"; sourceTree = "<group>"; };
+		9FF63FC149CFB0845A2B45E8 /* Pods-VoteNowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoteNowTests.debug.xcconfig"; path = "Target Support Files/Pods-VoteNowTests/Pods-VoteNowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1EF7E08A053561483A5BD1B /* Pods-VoteNowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoteNowTests.release.xcconfig"; path = "Target Support Files/Pods-VoteNowTests/Pods-VoteNowTests.release.xcconfig"; sourceTree = "<group>"; };
+		BD7CB6B6638641A2198AF327 /* Pods-VoteNow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoteNow.release.xcconfig"; path = "Target Support Files/Pods-VoteNow/Pods-VoteNow.release.xcconfig"; sourceTree = "<group>"; };
+		C2656F4BB08A5D1CA08AAB1A /* Pods-VoteNow-VoteNowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoteNow-VoteNowUITests.debug.xcconfig"; path = "Target Support Files/Pods-VoteNow-VoteNowUITests/Pods-VoteNow-VoteNowUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB4D70D03E1A2D6101F75624 /* Pods_VoteNow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoteNow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E64FB4AE16BA7F9F233C56CA /* Pods_VoteNowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoteNowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF40D3452544C772004A842D /* PieChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartViewController.swift; sourceTree = "<group>"; };
+		FF544B7C2540BE69009E1863 /* RaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceViewController.swift; sourceTree = "<group>"; };
+		FF544B812540DCBE009E1863 /* SearchBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarViewController.swift; sourceTree = "<group>"; };
 		FF5EEFB6253E95B400D3A5D8 /* VoteNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoteNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF5EEFB9253E95B400D3A5D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF5EEFBB253E95B400D3A5D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +68,7 @@
 		FF5EEFD7253E95B600D3A5D8 /* VoteNowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoteNowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF5EEFDB253E95B600D3A5D8 /* VoteNowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteNowUITests.swift; sourceTree = "<group>"; };
 		FF5EEFDD253E95B600D3A5D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF5EEFEC253EAA6000D3A5D8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B182C1F37E576887EB229E0 /* Pods_VoteNow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3818109547B7B2F3FBFED5F /* Pods_VoteNowTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				465C6E6414E0F2A83598522B /* Pods_VoteNow_VoteNowUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F8CD4068A51893F1094707C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				783AFDF022353D1B17F08AED /* Pods-VoteNow.debug.xcconfig */,
+				BD7CB6B6638641A2198AF327 /* Pods-VoteNow.release.xcconfig */,
+				C2656F4BB08A5D1CA08AAB1A /* Pods-VoteNow-VoteNowUITests.debug.xcconfig */,
+				03CEB3009BC7AB217AC18982 /* Pods-VoteNow-VoteNowUITests.release.xcconfig */,
+				9FF63FC149CFB0845A2B45E8 /* Pods-VoteNowTests.debug.xcconfig */,
+				B1EF7E08A053561483A5BD1B /* Pods-VoteNowTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DC85958F7EE9D76C1D8D4E95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB4D70D03E1A2D6101F75624 /* Pods_VoteNow.framework */,
+				46BB15220209B9F7A559308C /* Pods_VoteNow_VoteNowUITests.framework */,
+				E64FB4AE16BA7F9F233C56CA /* Pods_VoteNowTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FF5EEFAD253E95B400D3A5D8 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +129,8 @@
 				FF5EEFCF253E95B600D3A5D8 /* VoteNowTests */,
 				FF5EEFDA253E95B600D3A5D8 /* VoteNowUITests */,
 				FF5EEFB7253E95B400D3A5D8 /* Products */,
+				9F8CD4068A51893F1094707C /* Pods */,
+				DC85958F7EE9D76C1D8D4E95 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +149,15 @@
 			children = (
 				FF5EEFB9253E95B400D3A5D8 /* AppDelegate.swift */,
 				FF5EEFBB253E95B400D3A5D8 /* SceneDelegate.swift */,
-				FF5EEFBD253E95B400D3A5D8 /* ViewController.swift */,
 				FF5EEFBF253E95B400D3A5D8 /* Main.storyboard */,
 				FF5EEFC2253E95B600D3A5D8 /* Assets.xcassets */,
 				FF5EEFC4253E95B600D3A5D8 /* LaunchScreen.storyboard */,
 				FF5EEFC7253E95B600D3A5D8 /* Info.plist */,
+				FF5EEFEC253EAA6000D3A5D8 /* GoogleService-Info.plist */,
+				FF5EEFBD253E95B400D3A5D8 /* ViewController.swift */,
+				FF544B7C2540BE69009E1863 /* RaceViewController.swift */,
+				FF544B812540DCBE009E1863 /* SearchBarViewController.swift */,
+				FF40D3452544C772004A842D /* PieChartViewController.swift */,
 			);
 			path = VoteNow;
 			sourceTree = "<group>";
@@ -135,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF5EEFE0253E95B600D3A5D8 /* Build configuration list for PBXNativeTarget "VoteNow" */;
 			buildPhases = (
+				554F78790ACC1148E2109FC0 /* [CP] Check Pods Manifest.lock */,
 				FF5EEFB2253E95B400D3A5D8 /* Sources */,
 				FF5EEFB3253E95B400D3A5D8 /* Frameworks */,
 				FF5EEFB4253E95B400D3A5D8 /* Resources */,
+				75F0801D0E999FA3FF2441C2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF5EEFE3253E95B600D3A5D8 /* Build configuration list for PBXNativeTarget "VoteNowTests" */;
 			buildPhases = (
+				A13CA82D0BD90E2C57FA0C58 /* [CP] Check Pods Manifest.lock */,
 				FF5EEFC8253E95B600D3A5D8 /* Sources */,
 				FF5EEFC9253E95B600D3A5D8 /* Frameworks */,
 				FF5EEFCA253E95B600D3A5D8 /* Resources */,
@@ -170,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF5EEFE6253E95B600D3A5D8 /* Build configuration list for PBXNativeTarget "VoteNowUITests" */;
 			buildPhases = (
+				0274E1136BA2ACF2714975EB /* [CP] Check Pods Manifest.lock */,
 				FF5EEFD3253E95B600D3A5D8 /* Sources */,
 				FF5EEFD4253E95B600D3A5D8 /* Frameworks */,
 				FF5EEFD5253E95B600D3A5D8 /* Resources */,
+				00B84D4C46FBAF376D6CF360 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -207,7 +264,7 @@
 				};
 			};
 			buildConfigurationList = FF5EEFB1253E95B400D3A5D8 /* Build configuration list for PBXProject "VoteNow" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -231,6 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF5EEFED253EAA6000D3A5D8 /* GoogleService-Info.plist in Resources */,
 				FF5EEFC6253E95B600D3A5D8 /* LaunchScreen.storyboard in Resources */,
 				FF5EEFC3253E95B600D3A5D8 /* Assets.xcassets in Resources */,
 				FF5EEFC1253E95B400D3A5D8 /* Main.storyboard in Resources */,
@@ -253,12 +311,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00B84D4C46FBAF376D6CF360 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoteNow-VoteNowUITests/Pods-VoteNow-VoteNowUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoteNow-VoteNowUITests/Pods-VoteNow-VoteNowUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VoteNow-VoteNowUITests/Pods-VoteNow-VoteNowUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0274E1136BA2ACF2714975EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VoteNow-VoteNowUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		554F78790ACC1148E2109FC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VoteNow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75F0801D0E999FA3FF2441C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoteNow/Pods-VoteNow-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoteNow/Pods-VoteNow-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VoteNow/Pods-VoteNow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A13CA82D0BD90E2C57FA0C58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VoteNowTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FF5EEFB2253E95B400D3A5D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF40D3462544C772004A842D /* PieChartViewController.swift in Sources */,
 				FF5EEFBE253E95B400D3A5D8 /* ViewController.swift in Sources */,
+				FF544B822540DCBE009E1863 /* SearchBarViewController.swift in Sources */,
+				FF544B7D2540BE69009E1863 /* RaceViewController.swift in Sources */,
 				FF5EEFBA253E95B400D3A5D8 /* AppDelegate.swift in Sources */,
 				FF5EEFBC253E95B400D3A5D8 /* SceneDelegate.swift in Sources */,
 			);
@@ -433,16 +597,19 @@
 		};
 		FF5EEFE1253E95B600D3A5D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 783AFDF022353D1B17F08AED /* Pods-VoteNow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L4857M8LR6;
 				INFOPLIST_FILE = VoteNow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = Education.VoteNow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -452,16 +619,19 @@
 		};
 		FF5EEFE2253E95B600D3A5D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD7CB6B6638641A2198AF327 /* Pods-VoteNow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L4857M8LR6;
 				INFOPLIST_FILE = VoteNow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = Education.VoteNow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -471,6 +641,7 @@
 		};
 		FF5EEFE4253E95B600D3A5D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FF63FC149CFB0845A2B45E8 /* Pods-VoteNowTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +664,7 @@
 		};
 		FF5EEFE5253E95B600D3A5D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1EF7E08A053561483A5BD1B /* Pods-VoteNowTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +687,7 @@
 		};
 		FF5EEFE7253E95B600D3A5D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2656F4BB08A5D1CA08AAB1A /* Pods-VoteNow-VoteNowUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +708,7 @@
 		};
 		FF5EEFE8253E95B600D3A5D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03CEB3009BC7AB217AC18982 /* Pods-VoteNow-VoteNowUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
